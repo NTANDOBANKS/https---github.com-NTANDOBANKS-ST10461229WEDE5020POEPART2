@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to CHOSA - Children of South Africa</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        /* Animation for header */
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+        
+        header {
+            animation: fadeIn 2s ease-in-out;
+        }
+
+        /* Animation for navigation links */
+        #main-nav a {
+            transition: color 0.3s ease;
+        }
+
+        #main-nav a:hover {
+            color: #ff6600;
+        }
+
+        /* Animation for images */
+        .thumbnail {
+            transition: transform 0.3s ease;
+        }
+
+        .thumbnail:hover {
+            transform: scale(1.05);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>WELCOME TO CHOSA</h1>
+        <h2>Children of South Africa (CHOSA)</h2>
+    </header>
+
+    <nav id="main-nav">
+        <a href="index.html">HOME</a>
+        <a href="contact-us.html">CONTACT US</a>
+        <a href="about.html">ABOUT US</a>
+        <a href="news.html">NEWS</a>
+        <a href="services.html">SERVICES</a>
+    </nav>
+
+    <main>
+        <h2>SERVICES</h2>
+
+        <article>
+            <h3>CHOSA (Children Of South Africa)</h3>
+            <p>CHOSA is a South African non-governmental organization (NGO) that focuses on providing assistance to less fortunate children and communities.</p>
+
+            <h3>Services</h3>
+            <ul>
+                <li>Education support</li>
+                <li>Healthcare assistance</li>
+                <li>Shelter provision</li>
+                <li>Community development</li>
+            </ul>
+
+            <h3>Mission</h3>
+            <p>To help children and communities in South Africa by providing education, healthcare, shelter, and support.</p>
+
+            <h3>Vision</h3>
+            <p>To create a brighter future for all South Africans.</p>
+
+            <h3>Press Contact</h3>
+            <p>Name: John Doe<br>Email: <a href="mailto:johndoe@chosa.org">johndoe@chosa.org</a><br>Phone: <a href="tel:012-345-6789">012-345-6789</a></p>
+
+            <h3>Press Release</h3>
+            <p>Title: CHOSA Community Support Announcement<br>Date: 2020-01-01</p>
+
+            <h3>Press Kit</h3>
+            <p>Download press kit here: <a href="press-kit.zip" download>press-kit.zip</a></p>
+
+            <h3>Press Brief</h3>
+            <p>Download press brief here: <a href="press-brief.pdf" download>press-brief.pdf</a></p>
+        </article>
+
+        <section>
+            <img src="Images/image.jpeg" alt="CHOSA community support image" class="thumbnail">
+        </section>
+    </main>
+
+    <footer>
+        <h2>CHOSA</h2>
+        <ul>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="careers.html">Careers</a></li>
+            <li><a href="languages.html">Languages</a></li>
+            <li><a href="policies.html">Policies</a></li>
+            <li><a href="contact-us.html">Contact Us</a></li>
+        </ul>
+    </footer>
+</body>
+</html>
